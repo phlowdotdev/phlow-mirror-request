@@ -12,10 +12,16 @@ This is extremely useful for:
 
 ## How to Use
 
-Run the flow directly with Phlow:
+To execute the flow from a remote package, run:
 
 ```bash
 phlow https://github.com/phlowdotdev/phlow-mirror-request/archive/refs/heads/main.zip
+```
+
+Alternatively, if you have the flow locally, you can execute it directly using:
+
+```bash
+phlow .
 ```
 
 This will start a local HTTP server that mirrors any received requests.
