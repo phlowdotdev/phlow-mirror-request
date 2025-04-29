@@ -3,5 +3,5 @@
 Mirror request to Phlow.
 
 ```bash
-phlow git@github.com:lowcarboncode/phlow-mirror-request.git
+phlow https://github.com/phlowdotdev/phlow-mirror-request/archive/refs/heads/main.zip
 ```
