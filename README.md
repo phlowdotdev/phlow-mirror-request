@@ -1,14 +1,16 @@
 # Phlow Mirror Request
 
-> Mirror any incoming HTTP request easily using [Phlow](https://phlow.dev/).
+> Easily mirror any incoming HTTP request using [Phlow](https://phlow.dev/).
 
-**Phlow Mirror Request** is a flow that captures all the data from an incoming HTTP request (such as headers, body, path, method, client IP, etc.) and sends it back as a structured JSON response.
+**Phlow Mirror Request** is a simple flow designed to capture and return all the details of an incoming HTTP request, including headers, body, path, method, client IP, and more, as a structured JSON response.
 
-This is extremely useful for:
-- Testing integrations and webhooks
-- Debugging HTTP request contents
+This repository serves as an example of how to use [Phlow](https://phlow.dev/) to create and execute flows.
+
+This flow is particularly useful for:
+- Testing and debugging webhooks
+- Inspecting HTTP request contents
 - Simulating echo servers
-- Inspecting requests sent by applications or third parties
+- Analyzing requests from third-party applications or services
 
 ## How to Use
 
