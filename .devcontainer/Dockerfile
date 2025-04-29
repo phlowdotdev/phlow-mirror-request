@@ -11,3 +11,9 @@ RUN curl -fsSL https://raw.githubusercontent.com/phlowdotdev/phlow/main/scripts/
 
 # (opcional) Garante que ~/.bashrc tenha o PATH do Phlow
 RUN echo 'export PATH="$HOME/.phlow:$PATH"' >> /root/.bashrc
+
+RUN echo '\n# Phlow Welcome Message\n' >> /root/.bashrc && \
+    echo 'echo "\n🎉 Welcome to Phlow Development Environment! 🎉"' >> /root/.bashrc && \
+    echo 'echo "🌐 Visit: https://phlow.dev"' >> /root/.bashrc && \
+    echo 'echo "🚀 To start, run: phlow run your_flow.yaml"' >> /root/.bashrc && \
+    echo 'echo ""' >> /root/.bashrc
