@@ -4,7 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {}
   },
-  "postCreateCommand": "apt update && apt install -y curl && curl -fsSL https://raw.githubusercontent.com/phlowdotdev/phlow/main/scripts/install-phlow.sh | { bash || true; } && source ~/.bashrc",
+  "postCreateCommand": "set -x && apt update && apt install -y curl && curl -fsSL https://raw.githubusercontent.com/phlowdotdev/phlow/main/scripts/install-phlow.sh | { bash || true; } && echo '✅ Phlow instalado com sucesso!'",
   "customizations": {
     "vscode": {
       "extensions": [
