@@ -1,0 +1,8 @@
+{
+    "name": "Phlow Dev",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "postCreateCommand": "apt update && apt install -y curl && curl -fsSL https://raw.githubusercontent.com/phlowdotdev/phlow/main/scripts/install-phlow.sh | { bash || true; } && source ~/.bashrc"
+}
