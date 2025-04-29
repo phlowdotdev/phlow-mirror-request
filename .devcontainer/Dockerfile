@@ -17,3 +17,9 @@ RUN echo '\n# Phlow Welcome Message\n' >> /root/.bashrc && \
     echo 'echo "🌐 Visit: https://phlow.dev"' >> /root/.bashrc && \
     echo 'echo "🚀 To start, run: phlow run your_flow.yaml"' >> /root/.bashrc && \
     echo 'echo ""' >> /root/.bashrc
+
+RUN echo '\n# Phlow Welcome Message\n' >> /root/.zshrc && \
+    echo 'echo "\n🎉 Welcome to Phlow Development Environment! 🎉"' >> /root/.zshrc && \
+    echo 'echo "🌐 Visit: https://phlow.dev"' >> /root/.zshrc && \
+    echo 'echo "🚀 To start, run: phlow run your_flow.yaml"' >> /root/.zshrc && \
+    echo 'echo ""' >> /root/.zshrc
