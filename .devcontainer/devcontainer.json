@@ -9,7 +9,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "cschleiden.vscode-github-actions"
+        "cschleiden.vscode-github-actions",
+        "phlow.phlow"
       ]
     }
   },
